@@ -103,6 +103,16 @@ WSGI_APPLICATION = 'sap.wsgi.application'
     }
 } """
 import dj_database_url
+DATABASES ={
+    'default':{
+        'ENGINE':'django.db.backends.postgresql_psycopg2',
+        'NAME':'d6l9bis704do9h',
+        'USER':'wsboauuutzlema',
+        'PASSWORD':'f4a2505c53c42471baa24741239072958c0c475f79b423a2f9b74c26406655ff',
+        'HOST':'ec2-54-173-77-184.compute-1.amazonaws.com',
+        'PORT': '5432',
+    }
+}
 
 from decouple import config
 DATABASES={
